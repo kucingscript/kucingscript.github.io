@@ -1,19 +1,19 @@
-body{
+body {
     font-family: "source-sans";
 }
 
 /* nav */
 
-nav.navbar{
+nav.navbar {
     background: linear-gradient(45deg, #00d2ff, #3a7bd5);
 }
 
-nav.navbar li{
+nav.navbar li {
     margin-right: 10px;
 }
 
-nav.navbar .animate__bounceIn{
-    -webkit-animation: bounceIn 2s ease infinite alternate ;
+nav.navbar .animate__bounceIn {
+    -webkit-animation: bounceIn 2s ease infinite alternate;
     animation: bounceIn 2s ease infinite alternate;
 }
 
@@ -21,18 +21,18 @@ nav.navbar .animate__bounceIn{
 
 /* hero */
 
-.hero{
+.hero {
     padding-top: 60px;
     height: 100vh;
     width: 100%;
 }
 
-.hero h2{
+.hero h2 {
     font-family: playfair-display;
     margin-bottom: 10px;
 }
 
-.hero p{
+.hero p {
     line-height: 2;
     font-size: 16px;
 }
@@ -46,27 +46,33 @@ nav.navbar .animate__bounceIn{
     padding: 8px 30px 10px 30px;
     border-radius: 50px;
     color: #fff;
-    background: linear-gradient(45deg, #00d2ff, #3a7bd5); background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
     box-shadow: 0px 2px 8px #3a7bd5;
     border: none;
 }
 
-.hero .btn-start:hover{
+.hero .btn-start:hover {
     background: linear-gradient(-45deg, #00d2ff, #3a7bd5);
 }
 
 
-@media (max-width:575px){
-    .hero h2, .hero p{
+@media (max-width:575px) {
+
+    .hero h2,
+    .hero p {
         text-align: center;
     }
-    .hero h2{
+
+    .hero h2 {
         font-size: 25px;
     }
-    .hero p{
+
+    .hero p {
         font-size: 15px;
     }
-    .hero .btn-start{
+
+    .hero .btn-start {
         margin: auto;
     }
 }
@@ -74,26 +80,26 @@ nav.navbar .animate__bounceIn{
 /* hero */
 /* services */
 
-.services{
-    padding: 30px 0 40px 0; 
-    background:#F5F8FD ;
+.services {
+    padding: 30px 0 40px 0;
+    background: #F5F8FD;
     margin-top: -20px;
 }
 
-.services .section-header h3{
+.services .section-header h3 {
     font-family: "playfair-display", serif;
 }
 
-.services .section-header{
+.services .section-header {
     margin-bottom: 30px;
 }
 
-.services p{
+.services p {
     font-size: 16px;
     line-height: 2;
 }
 
-.services .box{
+.services .box {
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -105,11 +111,11 @@ nav.navbar .animate__bounceIn{
     text-align: center;
 }
 
-.services .box:hover{
+.services .box:hover {
     transform: scale(1.1);
 }
 
-.services .icon{
+.services .icon {
     margin: 0 auto 15px auto;
     padding-top: 12px;
     display: inline-block;
@@ -117,23 +123,23 @@ nav.navbar .animate__bounceIn{
     border-radius: 50%;
 }
 
-.services .icon i{
+.services .icon i {
     font-size: 36px;
     line-height: 1;
 }
 
-.services .title{
+.services .title {
     transition: .3s;
 }
 
-.services .box:hover .title{
+.services .box:hover .title {
     color: #1bb1dc;
 }
 
 /* services */
 /* cta */
 
-.cta{
+.cta {
     margin-top: 30px;
 }
 
@@ -149,7 +155,7 @@ nav.navbar .animate__bounceIn{
     padding: 0;
 }
 
-.cta ul li{
+.cta ul li {
     padding-bottom: 10px;
 }
 
@@ -160,8 +166,8 @@ nav.navbar .animate__bounceIn{
     color: #1bb1dc;
 }
 
-@media (min-width: 768px) and (max-width:1024px){
-    .cta .row-content img{
+@media (min-width: 768px) and (max-width:1024px) {
+    .cta .row-content img {
         padding-top: 100px;
     }
 }
@@ -169,62 +175,62 @@ nav.navbar .animate__bounceIn{
 /* cta */
 /* why */
 
-.why{
+.why {
     margin-top: 20px;
 }
 
-.why ul li{
+.why ul li {
     padding-bottom: 20px;
 }
 
 
-@media (min-width: 768px) and (max-width:1024px){
-    .why .row-content img{
+@media (min-width: 768px) and (max-width:1024px) {
+    .why .row-content img {
         padding-top: 80px;
     }
 }
 
 /* why */
 /* pricing */
-.pricing{
+.pricing {
     background: #F5F8FD;
-    padding: 30px 0 ;
+    padding: 30px 0;
 }
 
-.pricing .section-title h2{
+.pricing .section-title h2 {
     font-size: 25px;
     font-family: "playfair-display", serif;
 }
 
-.pricing .box h3{
+.pricing .box h3 {
     color: #2d405f;
     font-weight: 500;
     padding: 15px;
-    font-family: "playfair-display", serif ;
+    font-family: "playfair-display", serif;
 }
 
-.pricing .box h4{
+.pricing .box h4 {
     font-size: 30px;
     color: #3A7BD5;
     margin-bottom: 20px;
     font-weight: 500;
 }
 
-.pricing .box h4 span{
+.pricing .box h4 span {
     color: #bababa;
     font-size: 15px;
     font-weight: 300;
 }
 
-.pricing .box{
+.pricing .box {
     padding: 20px;
     background: #fff;
     text-align: center;
     border-radius: 8px;
 }
 
-.pricing .box ul{
-    padding : 0;
+.pricing .box ul {
+    padding: 0;
     list-style-type: none;
     color: #2d405f;
     text-align: center;
@@ -232,17 +238,17 @@ nav.navbar .animate__bounceIn{
     font-size: 15px;
 }
 
-.pricing .box ul li{
+.pricing .box ul li {
     padding-bottom: 16px;
 }
 
-.pricing .box .btn-wrap{
+.pricing .box .btn-wrap {
     padding: 10px;
     text-align: center;
     margin-top: -20px;
 }
 
-.pricing .box .btn-buy{
+.pricing .box .btn-buy {
     background: #eceefe;
     color: #3b4efb;
     display: inline-block;
@@ -253,7 +259,7 @@ nav.navbar .animate__bounceIn{
     font-weight: 400;
 }
 
-.pricing .box .btn-buy:hover{
+.pricing .box .btn-buy:hover {
     text-decoration: none;
     color: #fff;
 }
@@ -265,7 +271,7 @@ nav.navbar .animate__bounceIn{
 
 .pricing .featured h3,
 .pricing .featured h4,
-.pricing .featured ul{
+.pricing .featured ul {
     color: #fff;
 }
 
@@ -278,7 +284,7 @@ nav.navbar .animate__bounceIn{
     color: #fff;
 }
 
-.pricing .box ul li.na{
+.pricing .box ul li.na {
     color: #ccc;
     text-decoration: line-through;
 }
@@ -286,13 +292,13 @@ nav.navbar .animate__bounceIn{
 /* pricing */
 /* about */
 
-.about h2{
+.about h2 {
     font-family: "playfair-display", serif;
     font-size: 25px;
 }
 
-@media (min-width:768px) and (max-width:1024px){
-    .about img{
+@media (min-width:768px) and (max-width:1024px) {
+    .about img {
         margin-top: 30px;
     }
 }
@@ -300,24 +306,24 @@ nav.navbar .animate__bounceIn{
 /* about */
 /* faq */
 
-.faq{
+.faq {
     padding: 50px 0;
 }
 
 .faq .section-title h2,
-.contact .section-title h2{
+.contact .section-title h2 {
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
     font-family: "playfair-display", serif;
 }
 
-.faq .faq-list li{
+.faq .faq-list li {
     list-style-type: none;
     padding: 0 0 20px 25px;
 }
 
-.faq .faq-list a{
+.faq .faq-list a {
     display: block;
     position: relative;
     color: #343a40;
@@ -325,35 +331,37 @@ nav.navbar .animate__bounceIn{
     font-weight: 300;
 }
 
-.faq .faq-list i{
+.faq .faq-list i {
     font-size: 20px;
     position: absolute;
     left: -25px;
     top: 6px;
 }
 
-.faq .faq-list p{
+.faq .faq-list p {
     margin-bottom: 10px;
     font-size: 16px;
 }
 
-.faq .faq-list a.collapsed:hover{
+.faq .faq-list a.collapsed:hover {
     color: #3A7BD5;
     text-decoration: none;
 }
 
-@media (max-width:575px){
-    .faq-list{
+@media (max-width:575px) {
+    .faq-list {
         margin-left: -20px;
     }
-    .faq-list a.collapsed{
+
+    .faq-list a.collapsed {
         color: #3A7BD5;
     }
 }
+
 /* faq */
 /* contact */
 
-.contact .info-box{
+.contact .info-box {
     color: #444444;
     text-align: center;
     padding: 20px 0 30px 0;
@@ -362,36 +370,36 @@ nav.navbar .animate__bounceIn{
     transition: .3s;
 }
 
-.contact .info-box i{
+.contact .info-box i {
     font-size: 32px;
     color: #3A7BD5;
     padding: 8px;
 }
 
-.contact .info-box h3{
+.contact .info-box h3 {
     font-size: 24px;
     color: #2c4964;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.contact .info-box a{
+.contact .info-box a {
     color: #000;
 }
 
-.contact .info-box a:hover{
+.contact .info-box a:hover {
     text-decoration: none;
     color: #3A7BD5;
 }
 
-.contact .info-box:hover{
+.contact .info-box:hover {
     transform: scale(1.1);
 }
 
 /* contact */
 /* footer */
 
-.newsletter{
+.newsletter {
     margin-top: 40px;
     padding: 5px 0 20px 0;
     background-color: #f3f5fa;
@@ -399,11 +407,11 @@ nav.navbar .animate__bounceIn{
     color: #000;
 }
 
-.newsletter h4{
+.newsletter h4 {
     color: #3A7BD5;
 }
 
-.newsletter form{
+.newsletter form {
     margin-top: 30px;
     background: #fff;
     padding: 6px 10px;
@@ -420,7 +428,7 @@ nav.navbar .animate__bounceIn{
     width: calc(100% - 100px);
 }
 
-.newsletter form input[type=email]:focus{
+.newsletter form input[type=email]:focus {
     outline: none;
 }
 
@@ -444,11 +452,11 @@ nav.navbar .animate__bounceIn{
     background: linear-gradient(-45deg, #00d2ff, #3a7bd5);
 }
 
-.social-links{
-    margin-top: 25px;    
+.social-links {
+    margin-top: 25px;
 }
 
-.social-links a{
+.social-links a {
     font-size: 18px;
     display: inline-block;
     background: #eaecef;
@@ -463,34 +471,36 @@ nav.navbar .animate__bounceIn{
     transition: .3s;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     background: linear-gradient(45deg, #00d2ff, #3a7bd5);
     color: #fff;
     text-decoration: none;
 }
 
-.footer-bottom{
+.footer-bottom {
     border-top: 1px solid #d9dce2;
     position: relative;
     padding-top: 27px;
     padding-bottom: 10px;
 }
 
-.copyright{
+.copyright {
     float: left;
     font-size: 14px;
     color: #444;
 }
 
 
-.credits{
+.credits {
     float: right;
     font-size: 14px;
     color: #444;
 }
 
-@media (max-width:992px){
-    .copyright, .credits{
+@media (max-width:992px) {
+
+    .copyright,
+    .credits {
         float: none;
     }
 }
@@ -509,7 +519,7 @@ nav.navbar .animate__bounceIn{
     background: #fff
 }
 
-.preloader::before{
+.preloader::before {
     content: "";
     position: fixed;
     top: calc(50% - 30px);
@@ -523,14 +533,14 @@ nav.navbar .animate__bounceIn{
     animation: animate-preloader 1s linear infinite;
 }
 
-@-webkit-keyframes animate-preloader{
-    to{
+@-webkit-keyframes animate-preloader {
+    to {
         transform: rotate(360deg);
     }
 }
 
-@keyframes animate-preloader{
-    to{
+@keyframes animate-preloader {
+    to {
         transform: rotate(360deg);
     }
 }
@@ -539,15 +549,15 @@ nav.navbar .animate__bounceIn{
 
 /* Back to top */
 
-.back-to-top{
+.back-to-top {
     position: fixed;
-    
+
     right: 15px;
     bottom: 15px;
     z-index: 999;
 }
 
-.back-to-top i{
+.back-to-top i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -563,7 +573,7 @@ nav.navbar .animate__bounceIn{
 /* Back to top */
 /* modal */
 
-.modal-content .modal-header h5{
+.modal-content .modal-header h5 {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
@@ -580,12 +590,12 @@ nav.navbar .animate__bounceIn{
 
 /* modal */
 
-@font-face{
+@font-face {
     font-family: "playfair-display";
     src: url(../fonts/playfair-display-v21-latin-regular.woff) format("woff");
 }
 
-@font-face{
+@font-face {
     font-family: "source-sans";
     src: url(../fonts/source-sans-pro-v14-latin-regular.woff) format("woff");
 }
