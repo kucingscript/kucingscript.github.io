@@ -1,3 +1,17 @@
+Swal.fire(
+    'Selamat Datang',
+    'Di Website Kucing Menangis',
+    'info'
+)
+
+function klik(){
+    Swal.fire(
+        'Terimakasih',
+        'Anda Berhasil Masuk',
+        'success'
+    )
+}
+
 //scroll
 
 $('.page-scroll').on('click', function (e) {
