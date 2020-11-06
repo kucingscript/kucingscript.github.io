@@ -17,22 +17,6 @@ nav.navbar .animate__bounceIn {
     animation: bounceIn 2s ease infinite alternate;
 }
 
-nav.navbar .btn.btn-outline-light{
-    padding: 5px 30px;
-}
-
-@media (max-width:575px){
-    nav.navbar .btn.btn-outline-light{
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width:1024px){
-    nav.navbar .btn.btn-outline-light{
-        width: 100%;
-    }
-}
-
 /* nav */
 
 /* hero */
